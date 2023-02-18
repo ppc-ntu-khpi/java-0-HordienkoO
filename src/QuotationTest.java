@@ -1,6 +1,6 @@
-public class QuotationTest {
-    public static void main(String args[]) {
-        Quotation myQuotation = new Quotation();
-        myQuotation.display();
-    }
+public class Quotation {
+  String quote = "Welcome to Sun!";
+  public void display() {
+    System.out.println(quote);
+  }
 }
